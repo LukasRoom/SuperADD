@@ -39,6 +39,10 @@ uv run submit-industrial
 The `config.json` file contains all relevant configuration parameters. Make sure to run train, test and submission after
 any change.
 
+## Pretrained Models
+We provide “pretrained” models for each category. In our case, a pretrained model consists of a memory bank with reference embeddings stored in an .npz file, along with the corresponding model settings in a .json file for that category.
+All models are available at: https://owncloud.fraunhofer.de/index.php/s/THkX7W8AhRd2RCs
+
 ## Dependencies
 For a full list of all dependencies, please refer to the `./pyproject.toml`, `./utils/pyproject.toml`,
 and `./tracks/industrial/pyproject.toml` files. Additionally, the execution depends on the provided DINOv3 model weights.
