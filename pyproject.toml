@@ -1,0 +1,11 @@
+[project]
+name = "vand-super-add"
+version = "0.1.0"
+description = "Super ADD submission for the VAND 4.0 Challenge"
+requires-python = ">=3.11"
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["utils", "tracks/industrial"]

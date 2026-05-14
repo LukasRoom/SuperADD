@@ -1,0 +1,57 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv
+env/
+venv/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+coverage.xml
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# Ruff
+.ruff_cache/
+
+# Editors / IDEs
+.idea/
+.vscode/
+.cursor/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VAND Challenge — data, outputs, artifacts
+data/*
+!data/.gitkeep
+outputs/*
+submissions/
+weights/*
+!weights/.gitkeep
+predictions/*
+results/*
+models/*
+!models/.gitkeep
+*.tiff
+*.tar.gz
+*.zip
