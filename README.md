@@ -44,7 +44,9 @@ We provide “pretrained” models for each category for easier reproduction and
 
 All models are available at: https://owncloud.fraunhofer.de/index.php/s/THkX7W8AhRd2RCs
 Place all models in the `./models/` directory. After that, you can skip training and run inference directly with:
-```bash uv run test-industrial
+```bash
+uv run test-industrial
+```
 
 ## Dependencies
 For a full list of all dependencies, please refer to the `./pyproject.toml`, `./utils/pyproject.toml`,
