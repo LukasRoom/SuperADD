@@ -40,8 +40,9 @@ The `config.json` file contains all relevant configuration parameters. Make sure
 any change.
 
 ## Pretrained Models
-We provide “pretrained” models for each category. In our case, a pretrained model consists of a memory bank with reference embeddings stored in an .npz file, along with the corresponding model settings in a .json file for that category.
+We provide “pretrained” models for each category for easier reproduction and to skip running the training script. In our case, a pretrained model consists of a memory bank with reference embeddings stored in an .npz file, along with the corresponding model settings in a .json file for that category.
 All models are available at: https://owncloud.fraunhofer.de/index.php/s/THkX7W8AhRd2RCs
+Place all models in the `./models/` directory. After that, you can skip training and run inference directly with: ```bash uv run test-industrial
 
 ## Dependencies
 For a full list of all dependencies, please refer to the `./pyproject.toml`, `./utils/pyproject.toml`,
