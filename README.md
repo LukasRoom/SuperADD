@@ -1,5 +1,7 @@
 # SuperADD
 
+[![arXiv](https://img.shields.io/badge/arXiv-2605.14808-b31b1b.svg)](https://arxiv.org/abs/2605.14808)
+
 This repository contains the code for the SuperADD submission to the VAND 4.0 Challenge.
 
 SuperADD is a class-agnostic anomaly detection model and trained using only anomaly-free images.
@@ -46,7 +48,7 @@ We provide “pretrained” models for each category for easier reproduction and
 
 Models are available at: https://owncloud.fraunhofer.de/index.php/s/THkX7W8AhRd2RCs
 
-Place all models in the `./models/` directory. After that, you can run inference directly with:
+Place all models in the `./models/` directory and make sure you installed DINOv3 weights. After that, you can run inference directly with:
 ```bash
 uv run test-industrial
 ```
@@ -54,6 +56,19 @@ uv run test-industrial
 ## Dependencies
 For a full list of all dependencies, please refer to the `./pyproject.toml`, `./utils/pyproject.toml`,
 and `./tracks/industrial/pyproject.toml` files. Additionally, the execution depends on the provided DINOv3 model weights.
+
+## Citation
+To cite this work, please use:
+```bibtex
+@article{Roming_SuperADD_Training-free_Class-agnostic_2026,
+  author = {Roming, Lukas and Lehnerer, Felix and Funk, Jonas V. and Michel, Andreas and Maier, Georg and Längle, Thomas and Beyerer, Jürgen},
+  journal = {arXiv preprint arXiv:2605.14808},
+  title = {{SuperADD: Training-free Class-agnostic Anomaly Segmentation -- CVPR 2026 VAND 4.0 Workshop Challenge Industrial Track}},
+  url = {https://arxiv.org/abs/2605.14808},
+  month = 5,
+  year = {2026}
+}
+```
 
 ## Licensing
 For licensing information see the `LICENSE` and `NOTICE` files.
