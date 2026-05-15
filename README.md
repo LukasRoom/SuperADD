@@ -5,6 +5,8 @@ This repository contains the code for the SuperADD submission to the VAND 4.0 Ch
 SuperADD is a class-agnostic anomaly detection model and trained using only anomaly-free images.
 It is based on [SuperAD](https://github.com/Summerdayhurricane/SuperAD/tree/main) by Zhang et al.
 
+Built with DINOv3.
+
 ## Reproduce our results
 
 ### 1. Preparation
