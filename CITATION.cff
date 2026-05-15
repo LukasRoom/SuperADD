@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SuperADD"
+url: "https://github.com/LukasRoom/SuperADD"
+authors:
+  - family-names: "Roming"
+    given-names: "Lukas"
+  - family-names: "Lehnerer"
+    given-names: "Felix"
+  - family-names: "Funk"
+    given-names: "Jonas V."
+  - family-names: "Michel"
+    given-names: "Andreas"
+  - family-names: "Maier"
+    given-names: "Georg"
+  - family-names: "Längle"
+    given-names: "Thomas"
+  - family-names: "Beyerer"
+    given-names: "Jürgen"
+preferred-citation:
+  type: article
+  title: "SuperADD: Training-free Class-agnostic Anomaly Segmentation -- CVPR 2026 VAND 4.0 Workshop Challenge Industrial Track"
+  authors:
+    - family-names: "Roming"
+      given-names: "Lukas"
+    - family-names: "Lehnerer"
+      given-names: "Felix"
+    - family-names: "Funk"
+      given-names: "Jonas V."
+    - family-names: "Michel"
+      given-names: "Andreas"
+    - family-names: "Maier"
+      given-names: "Georg"
+    - family-names: "Längle"
+      given-names: "Thomas"
+    - family-names: "Beyerer"
+      given-names: "Jürgen"
+  month: 5
+  year: 2026
+  journal: "arXiv preprint arXiv:2605.14808"
+  url: "https://arxiv.org/abs/2605.14808"
