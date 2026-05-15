@@ -2,3 +2,7 @@ Unless explicitly stated otherwise, all files in this project are licensed under
 
 Any source code or other content that is subject to different licensing terms is clearly marked in the file itself or in accompanying documentation.
 Third party licenses are located in the ./third_party_licenses/ directory.
+
+If you download or use any DINOv3 model weights, you are also subject to the separate license terms provided by Meta for DINOv3. Nothing in this repository’s LICENSE grants any rights to the DINOv3 model or its weights.
+
+Software dependencies that are installed via uv are third‑party components and are provided under their respective licenses. Please refer to the individual packages’ license information for details.
