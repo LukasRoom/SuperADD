@@ -38,6 +38,7 @@ To create the final submission, run:
 ```bash
 uv run submit-industrial
 ```
+When loading it to the official benachmark server, results of test_public are not expected, in this case you can remove test_public from the settings.json file before running test-industrial or you can manually remove the test_public predictions.
 
 ## Configuration
 The `config.json` file contains all relevant configuration parameters. Make sure to run train, test and submission after
