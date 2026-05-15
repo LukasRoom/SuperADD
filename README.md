@@ -55,7 +55,7 @@ uv run test-industrial
 
 ## Dependencies
 For a full list of all dependencies, please refer to the `./pyproject.toml`, `./utils/pyproject.toml`,
-and `./tracks/industrial/pyproject.toml` files. Additionally, the execution depends on the provided DINOv3 model weights.
+and `./tracks/industrial/pyproject.toml` files. Additionally, the execution depends on the installed DINOv3 model weights.
 
 ## Citation
 To cite this work, please use:
