@@ -20,7 +20,19 @@ Place the `mvtec_ad_2` dataset into the `./data/` directory.
 If the dataset is stored elsewhere, you can adjust the `datasets_dir` parameter in the `config.json`.
 
 ### 2. Install
-Run the following to install all dependencies:
+First, install uv (a fast Python package manager):
+
+macOS / Linux:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Windows (PowerShell):
+```bash
+irm https://astral.sh/uv/install.ps1 | iex
+```
+
+Then run the following to install all dependencies:
 ```bash
 uv sync --all-packages
 ```
