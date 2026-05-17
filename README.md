@@ -42,15 +42,18 @@ Train all models by running:
 ```bash
 uv run train-industrial
 ```
+By default, the test script generates predictions for `test_private` and `test_private_mixed` in the `./outputs/` directory.
+If you want predictions for `test_public` you can add it to `test_split` in the `config.json` file.
+
 To test models and generate anomaly maps and thresholded anomaly maps, run:
 ```bash
 uv run test-industrial
 ```
+
 To create the final submission, run:
 ```bash
 uv run submit-industrial
 ```
-When loading it to the official mvtec benchmark server, results of test_public are not expected, in this case you can remove test_public from the settings.json file before running test-industrial or you can manually remove the test_public predictions.
 
 ## Configuration
 The `config.json` file contains all relevant configuration parameters. Make sure to run train, test and submission after

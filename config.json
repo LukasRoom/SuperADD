@@ -21,7 +21,7 @@
     "closing_angles": 16,
     "closing_lower_threshold": 0.8,
     "binary_erosion": 1,
-    "test_split": ["test_public", "test_private", "test_private_mixed"],
+    "test_split": ["test_private", "test_private_mixed"],
     "save_predictions": true,
     "evaluate_good_images": false
 }
