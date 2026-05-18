@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.14808-b31b1b.svg)](https://arxiv.org/abs/2605.14808)
 
-This repository contains the code for the SuperADD submission to the VAND 4.0 Challenge.
+This repository contains the code for the SuperADD submission to the VAND 4.0 Challenge. Implementation details can be found in our [publication](https://img.shields.io/badge/arXiv-2605.14808-b31b1b.svg)](https://arxiv.org/abs/2605.14808).
 
 SuperADD is a class-agnostic anomaly detection model and trained using only anomaly-free images.
 It is based on [SuperAD](https://github.com/Summerdayhurricane/SuperAD/tree/main) by Zhang et al.
@@ -60,7 +60,7 @@ The `config.json` file contains all relevant configuration parameters. Make sure
 any change.
 
 ## Pretrained Models
-We provide “pretrained” models for each category for easier reproduction and to skip the training script. In our case, a pretrained model does not contain weights, but a memory bank with reference embeddings stored in an .npz file, along with the corresponding model settings in a .json file for that category.
+We provide “pretrained” models for each category for easier reproduction and to skip the training script when evaluating on `mvtec_ad_2`. In our case, a pretrained model does not contain weights and does not replace downloading the DINOv3 weights. Instead, the provided files contain a memory bank with reference embeddings stored in an .npz file, along with the corresponding model settings in a .json file for that category.
 
 Models are available at: https://owncloud.fraunhofer.de/index.php/s/THkX7W8AhRd2RCs
 
