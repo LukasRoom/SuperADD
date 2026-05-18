@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.14808-b31b1b.svg)](https://arxiv.org/abs/2605.14808)
 
-This repository contains the code for the SuperADD submission to the VAND 4.0 Challenge. Implementation details can be found in our [publication](https://img.shields.io/badge/arXiv-2605.14808-b31b1b.svg)](https://arxiv.org/abs/2605.14808).
+This repository contains the code for the SuperADD submission to the VAND 4.0 Challenge. Implementation details can be found in our [publication](https://arxiv.org/abs/2605.14808).
 
 SuperADD is a class-agnostic anomaly detection model and trained using only anomaly-free images.
 It is based on [SuperAD](https://github.com/Summerdayhurricane/SuperAD/tree/main) by Zhang et al.
